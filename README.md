@@ -1,2 +1,3 @@
-# Automated-360-Quality-Inspection-for-Helical-Gears-Using-Baumer-Cameras
-This industrial project focuses on automated quality inspection of helical gears from Tesla using a rolling machine that rotates parts 360 degrees for a comprehensive inspection. The system integrates two Baumer industrial cameras to capture high-precision images, ensuring defect detection and quality control.
+This project ensures precision quality inspection of helical gears manufactured by Sona BLW Precision Forgings Ltd (Sona Comstar) for Tesla. Sona Comstar, a global automotive systems leader, operates 10 plants across India, China, Mexico, and the USA.
+
+Using a rolling machine for 360° rotation, the system integrates two Baumer industrial cameras for high-precision defect detection and quality control before final delivery.
