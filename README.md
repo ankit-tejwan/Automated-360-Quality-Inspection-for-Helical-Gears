@@ -12,9 +12,11 @@ The machine uses a drive mechanism to rotate the gear 360° based on a PLC signa
 Two Baumer industrial cameras capture images during rotation.
 A total of 30 images are acquired within 1 minute for complete surface inspection.
 
-# Step 3: Image Preprocessing
+# Step 3: Image Preprocessing and perspective transformation
 The images are sent to a FastAPI server (running on Uvicorn).
 Using OpenCV, a perspective transformation is applied to convert tilted images into a 2D planar view for accurate object detection.
+
+![Figure_1](https://github.com/user-attachments/assets/769c1f71-f14c-46ff-a44b-2b4b7c3ce74b)
 
 # Step 4: Defect Detection Using YOLO
 The transformed images are sent to the YOLO object detection model.
