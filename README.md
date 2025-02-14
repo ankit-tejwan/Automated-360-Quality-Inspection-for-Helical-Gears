@@ -7,6 +7,7 @@ It integrates a rolling machine, Baumer industrial cameras, and a YOLO-based obj
 # Step 1: Gear Rotation & Image Capture Setup
 The manufactured helical gear is placed in the rolling machine.
 The machine uses a drive mechanism to rotate the gear 360° based on a PLC signal.
+
 # Step 2: Image Acquisition
 Two Baumer industrial cameras capture images during rotation.
 A total of 30 images are acquired within 1 minute for complete surface inspection.
@@ -25,8 +26,12 @@ The inspection results are saved in the Sona Comstar database server for trackin
 # Step 6: Real-Time Monitoring
 Simultaneously, results are displayed on a real-time dashboard over the local LAN IP.
 Operators can monitor inspection status and detected defects instantly.
+
 # Technologies Used
-Hardware: Rolling Machine, PLC, Baumer Industrial Cameras
-Software: FastAPI, Uvicorn, OpenCV, YOLO Object Detection
-Database: Sona Comstar Database Server
-Dashboard: Real-time visualization of Production  Dashboard  over Local LAN
+*Hardware:* Rolling Machine, PLC, Baumer Industrial Cameras
+
+*Software:* FastAPI, Uvicorn, OpenCV, YOLO Object Detection
+
+*Database:* Sona Comstar Database Server
+
+*Dashboard:* Real-time visualization of Production  Dashboard  over Local LAN
