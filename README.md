@@ -19,7 +19,7 @@ Using OpenCV, a perspective transformation is applied to convert tilted images i
 ![Figure_1](https://github.com/user-attachments/assets/769c1f71-f14c-46ff-a44b-2b4b7c3ce74b)
 
 # Step 4: Defect Detection Using YOLO
-*Defect Classes:* 1. Handling dent 2. Root grinding 3. ChamferMiss 4. step grinding 5. Flank_unclean 6. Rust 7. Heat treatment dent
+*Defect Classes:* 1. Handling dent 2. Root grinding 3. ChamferMiss 4. step grinding 5. Flank_unclean 6. Rust 7. Heat treatment dent.
 
 The transformed images are sent to the YOLO object detection model.
 The model analyzes the images and detects defects .
